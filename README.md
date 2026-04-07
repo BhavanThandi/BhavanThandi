@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.pinimg.com/originals/6d/77/38/6d773843a8b38d03aa06e6144b51382d.gif" width="180px" />
+<img src="https://i.pinimg.com/originals/6d/77/38/6d773843a8b38d03aa06e6144b51382d.gif" width="280px" />
 
 # bhavan thandi
 
@@ -10,52 +10,100 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bhavan--thandi-7D3C98?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhavan-thandi)
 [![Email](https://img.shields.io/badge/Email-Bst9@sfu.ca-6C3483?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Bst9@sfu.ca)
+[![GitHub](https://img.shields.io/badge/GitHub-YOUR_USERNAME-8E44AD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
 
 </div>
 
 ---
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true" width="400"/>
+## 🟣 About Me
 
-### who am i
+I'm a first-year Engineering student at **Simon Fraser University** with an intended concentration in **Systems Engineering** and a **Beedie Luminaries Scholarship**. I'm drawn to projects that sit at the intersection of hardware and software — things you can hold, plug in, and actually watch work.
 
-- 🎓 First-year @ **Simon Fraser University** — Systems Engineering
-- 🏅 **Beedie Luminaries Scholar**
-- 🔧 I like building things that heat up, spin, or blink
-- 📍 Surrey, BC
+I enjoy designing systems from the ground up: from thermodynamic calculations and CAD models to microcontroller firmware and circuit assembly. If it involves building something that didn't exist before, I'm in.
 
-<br clear="right"/>
+**✨ Interests**
+- Embedded systems and microcontroller programming
+- Electronics design, PCB assembly, and circuit analysis
+- CAD modelling and 3D printing for functional prototypes
+- Writing clean, efficient low-level code in C and C++
 
 ---
 
-### 🛠 tools i use
+## 💼 Current Experience
 
-<div align="center">
+**Sales Associate / Technician — Sport Chek** *(August 2024 – Present)*
+- Cross-trained across multiple departments, handling high-volume transactions and customer service simultaneously in a fast-paced retail environment
+- Trained in the service department to build, fix, and tune sports equipment including bikes, snow gear, and rackets
+- Resolved conflicts between coworkers and customers, consistently leaving both parties satisfied
+
+**API Discovery — TeejLab** *(September 2022 – June 2023)*
+- Researched and catalogued publicly available APIs from platforms like GitHub to grow TeejLab's API intelligence library
+- Validated authentication tokens and organized APIs by category to improve searchability and client usability
+- Gained hands-on experience with RESTful APIs, API documentation, and token-based authentication
+
+---
+
+## 🚀 Featured Projects
+
+### 🫖 [Smart Mug: ICUP](https://github.com/YOUR_USERNAME/Smart-Mug-ICUP)
+**Tech: C++ • Arduino Pro Mini • MAX6675 Thermocouple • SSD1306 OLED • Li-ion**
+
+- Designed and built a self-heating smart mug that monitors and regulates fluid temperature in real time, targeting a 35°C differential (25°C → 60°C) within 15 minutes
+- Applied Q=mcΔt to calculate a required heating power of ~81.5W, selecting a 12V 50W heating rod driven through a MOSFET and controlled via thermocouple feedback
+- Programmed an Arduino Pro Mini in C++ to handle temperature sensing, on/off heating control, button inputs, preset temperatures, and a live OLED display — all updating every 100ms
+- Designed a full multi-part enclosure in Fusion 360 using PLA, ABS, and Nylon, with dedicated internal chambers for electronics, heating element, and a custom 6S Li-ion battery pack (30Wh+)
+- Built the battery pack from 12x 18350 Li-ion cells managed by a 6S BMS, positioned at the bottom of the mug for a low centre of gravity
+
+### 🎲 Printed Wiring Board Dice
+**Tech: PCB Design • SMD Soldering • Through-Hole • Circuit Testing**
+
+- Constructed a functional PWB using mixed-technology assembly — combining surface mount devices and through-hole components on the same board
+- Conducted circuit testing using power supplies, digital multimeters, and oscilloscopes to troubleshoot errors and verify reliable electrical performance
+- Applied soldering techniques and layout analysis to ensure proper connectivity and system functionality across all components
+- Interpreted component datasheets to verify electrical specifications and ensure correct part selection and placement during assembly
+
+---
+
+## 🛠 Tech Stack
+
+**Languages**
 
 ![C++](https://img.shields.io/badge/C++-6C3483?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C](https://img.shields.io/badge/C-7D3C98?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-8E44AD?style=for-the-badge&logo=python&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-9B59B6?style=for-the-badge&logo=mathworks&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-A569BD?style=for-the-badge&logo=arduino&logoColor=white)
-![SolidWorks](https://img.shields.io/badge/SolidWorks-BB8FCE?style=for-the-badge&logoColor=white)
-![Fusion360](https://img.shields.io/badge/Fusion_360-6C3483?style=for-the-badge&logo=autodesk&logoColor=white)
-![VHDL](https://img.shields.io/badge/VHDL-7D3C98?style=for-the-badge&logoColor=white)
+![VHDL](https://img.shields.io/badge/VHDL-A569BD?style=for-the-badge&logoColor=white)
+![R](https://img.shields.io/badge/R-BB8FCE?style=for-the-badge&logo=r&logoColor=white)
 
-</div>
+**Hardware & Tools**
 
----
-
-### 🔧 projects
-
-| project | what it is | stack |
-|---------|------------|-------|
-| [🫖 Smart Mug: ICUP](https://github.com/YOUR_USERNAME/Smart-Mug-ICUP) | Self-heating smart mug with OLED UI and custom Li-ion battery pack | `C++` `Arduino` `Fusion 360` |
-| 🎲 Printed Wiring Board Dice | Mixed-technology PCB designed, soldered, and tested from scratch | `PCB` `Soldering` `Circuit Design` |
+![Arduino](https://img.shields.io/badge/Arduino-6C3483?style=for-the-badge&logo=arduino&logoColor=white)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-7D3C98?style=for-the-badge&logoColor=white)
+![Fusion360](https://img.shields.io/badge/Fusion_360-8E44AD?style=for-the-badge&logo=autodesk&logoColor=white)
+![Soldering](https://img.shields.io/badge/Soldering-9B59B6?style=for-the-badge&logoColor=white)
+![Circuit Design](https://img.shields.io/badge/Circuit_Design-A569BD?style=for-the-badge&logoColor=white)
+![3D Printing](https://img.shields.io/badge/3D_Printing-BB8FCE?style=for-the-badge&logoColor=white)
 
 ---
+
+## 📊 GitHub Stats
 
 <div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true" width="420"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=midnight-purple&hide_border=true" width="320"/>
+
+<br/>
 
 ![GitHub streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=midnight-purple&hide_border=true)
 
 </div>
+
+---
+
+## 📌 Let's Connect
+
+📩 Email: Bst9@sfu.ca
+🐙 GitHub: github.com/YOUR_USERNAME
+💼 LinkedIn: linkedin.com/in/bhavan-thandi
