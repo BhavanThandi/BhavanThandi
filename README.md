@@ -98,5 +98,5 @@ I enjoy designing systems from the ground up: from thermodynamic calculations an
 ## 📌 Let's Connect
 
 📩 Email: Bst9@sfu.ca
-🐙 GitHub: github.com/YOUR_USERNAME
+🐙 GitHub: github.com/BhavanThandi
 💼 LinkedIn: linkedin.com/in/bhavan-thandi
