@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.pinimg.com/originals/6d/77/38/6d773843a8b38d03aa06e6144b51382d.gif" width="280px" />
+<img src="https://i.pinimg.com/originals/6d/77/38/6d773843a8b38d03aa06e6144b51382d.gif" width="420px" />
 
 # Bhavan Thandi
 
@@ -55,6 +55,14 @@ I enjoy designing systems from the ground up: from thermodynamic calculations an
 - Designed a full multi-part enclosure in Fusion 360 using PLA, ABS, and Nylon, with dedicated internal chambers for electronics, heating element, and a custom 6S Li-ion battery pack (30Wh+)
 - Built the battery pack from 12x 18350 Li-ion cells managed by a 6S BMS, positioned at the bottom of the mug for a low centre of gravity
 
+### 🚲 Foldable Bike Design — UrbanGear Innovations
+**Tech: SolidWorks • Engineering Drawing • Assembly Mates**
+
+- Designed and modeled a compact foldable bike frame for urban commuters in SolidWorks, individually creating parts including the frame, hinges, handlebars, seat clamp, wheels, and fastener hardware from scratch
+- Evaluated three distinct folding mechanisms — mid-frame rotation, wheel pivot, and rod hinge — comparing structural strength and folding efficiency to select the optimal final design
+- Assembled all components into a full SolidWorks assembly using concentric, coincident, and parallel mates to accurately simulate the bike's folding motion and part interactions
+- Produced multi-view engineering drawings with proper dimensioning and orthographic projections for each custom part in accordance with technical drafting standards
+
 ### 🎲 Printed Wiring Board Dice
 **Tech: PCB Design • SMD Soldering • Through-Hole • Circuit Testing**
 
@@ -84,21 +92,6 @@ I enjoy designing systems from the ground up: from thermodynamic calculations an
 ![Soldering](https://img.shields.io/badge/Soldering-9B59B6?style=for-the-badge&logoColor=white)
 ![Circuit Design](https://img.shields.io/badge/Circuit_Design-A569BD?style=for-the-badge&logoColor=white)
 ![3D Printing](https://img.shields.io/badge/3D_Printing-BB8FCE?style=for-the-badge&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true" width="420"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=midnight-purple&hide_border=true" width="320"/>
-
-<br/>
-
-![GitHub streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=midnight-purple&hide_border=true)
-
-</div>
 
 ---
 
