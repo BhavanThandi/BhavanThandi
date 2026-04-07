@@ -10,7 +10,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bhavan--thandi-7D3C98?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhavan-thandi)
 [![Email](https://img.shields.io/badge/Email-Bst9@sfu.ca-6C3483?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Bst9@sfu.ca)
-[![GitHub](https://img.shields.io/badge/GitHub-YOUR_USERNAME-8E44AD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-YOUR_USERNAME-8E44AD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BhavanThandi)
 
 </div>
 
