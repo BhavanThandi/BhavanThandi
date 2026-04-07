@@ -2,7 +2,7 @@
 
 <img src="https://i.pinimg.com/originals/6d/77/38/6d773843a8b38d03aa06e6144b51382d.gif" width="280px" />
 
-# bhavan thandi
+# Bhavan Thandi
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=9B59B6&center=true&vCenter=true&width=500&lines=SFU+Engineering+%7C+Systems;Builder+of+things+that+actually+work;C%2B%2B+%7C+Python+%7C+Arduino+%7C+CAD" alt="Typing SVG" />
 
