@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://i.pinimg.com/originals/6d/77/38/6d773843a8b38d03aa06e6144b51382d.gif" width="280px" />
+<img src="https://i.pinimg.com/originals/6d/77/38/6d773843a8b38d03aa06e6144b51382d.gif" width="420px" />
 
-# bhavan thandi
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=9B59B6&center=true&vCenter=true&width=500&lines=SFU+Engineering+%7C+Systems;Builder+of+things+that+actually+work;C%2B%2B+%7C+Python+%7C+Arduino+%7C+CAD" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=9B59B6&center=true&vCenter=true&width=600&lines=hey+i'm+bhavan+👋;SFU+Engineering+%7C+Systems;builder+of+things+that+work;C%2B%2B+%7C+Python+%7C+Arduino+%7C+CAD" alt="Typing SVG" />
 
 <br/>
 
@@ -84,21 +82,6 @@ I enjoy designing systems from the ground up: from thermodynamic calculations an
 ![Soldering](https://img.shields.io/badge/Soldering-9B59B6?style=for-the-badge&logoColor=white)
 ![Circuit Design](https://img.shields.io/badge/Circuit_Design-A569BD?style=for-the-badge&logoColor=white)
 ![3D Printing](https://img.shields.io/badge/3D_Printing-BB8FCE?style=for-the-badge&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true" width="420"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=midnight-purple&hide_border=true" width="320"/>
-
-<br/>
-
-![GitHub streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=midnight-purple&hide_border=true)
-
-</div>
 
 ---
 
