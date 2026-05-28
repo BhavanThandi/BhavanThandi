@@ -18,7 +18,7 @@
 
 ## 🟣 About Me
 
-I'm a first-year Engineering student at **Simon Fraser University** with an intended concentration in **Systems Engineering** and a **Beedie Luminaries Scholarship**. I'm drawn to projects that sit at the intersection of hardware and software — things you can hold, plug in, and actually watch work.
+I'm a first-year Engineering student at **Simon Fraser University** with a concentration in **Systems Engineering** and a **Beedie Luminaries Scholarship**. I'm drawn to projects that sit at the intersection of hardware and software — things you can hold, plug in, and actually watch work.
 
 I enjoy designing systems from the ground up: from thermodynamic calculations and CAD models to microcontroller firmware and circuit assembly. If it involves building something that didn't exist before, I'm in.
 
