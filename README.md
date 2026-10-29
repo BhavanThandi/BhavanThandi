@@ -46,7 +46,7 @@ I enjoy designing systems from the ground up: from thermodynamic calculations an
 
 ## 🚀 Featured Projects
 
-### 🫖 [Smart Mug: ICUP](https://github.com/YOUR_USERNAME/Smart-Mug-ICUP)
+### 🫖 [Smart Mug: ICUP](https://github.com/BhavanThandi/Smart-Mug-ICUP)
 **Tech: C++ • Arduino Pro Mini • MAX6675 Thermocouple • SSD1306 OLED • Li-ion**
 
 - Designed and built a self-heating smart mug that monitors and regulates fluid temperature in real time, targeting a 35°C differential (25°C → 60°C) within 15 minutes
@@ -55,7 +55,7 @@ I enjoy designing systems from the ground up: from thermodynamic calculations an
 - Designed a full multi-part enclosure in Fusion 360 using PLA, ABS, and Nylon, with dedicated internal chambers for electronics, heating element, and a custom 6S Li-ion battery pack (30Wh+)
 - Built the battery pack from 12x 18350 Li-ion cells managed by a 6S BMS, positioned at the bottom of the mug for a low centre of gravity
 
-### 🚲 Foldable Bike Design — UrbanGear Innovations
+### 🚲 [Foldable Bike Design — UrbanGear Innovations](https://github.com/BhavanThandi/foldable-bike-frame)
 **Tech: SolidWorks • Engineering Drawing • Assembly Mates**
 
 - Designed and modeled a compact foldable bike frame for urban commuters in SolidWorks, individually creating parts including the frame, hinges, handlebars, seat clamp, wheels, and fastener hardware from scratch
