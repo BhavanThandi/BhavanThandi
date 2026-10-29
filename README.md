@@ -46,6 +46,41 @@ I enjoy designing systems from the ground up: from thermodynamic calculations an
 
 ## 🚀 Featured Projects
 
+### 🥊 AttackIt — Instrumented Striking Target *(in progress)*
+**Tech: Embedded C++ • ESP32 • PlatformIO • Analog Signal Conditioning • Python • WebSerial**
+
+- Designing a wall-mounted striking target that measures impact force and strike location from a 7-channel piezoelectric sensor array, at a ~$148 CAD bill of materials against $1,500+ commercial alternatives
+- Built a custom analog front end per channel — input clamping, peak-detect into a hold capacitor, and an RC discharge — then bench-tuned the capacitor and resistor 8x to move hand strikes from ADC clipping to ~1100 mV against a 3300 mV ceiling
+- Implemented integer-only zone localization that scores the 7-channel voltage vector against spillover templates with a squared-cosine fit, avoiding floating point on the MCU
+- Replaced a naive refractory timer with a hysteresis re-arm state machine plus a fault guard, eliminating ghost duplicate impact events
+- Wrote a Python calibration pipeline that fits linear and power models, selects on RMSE, and emits a C++ header the firmware auto-detects, so recalibration needs no source edits
+- Phase 1 validated on hardware; drop-test calibration rig in build
+
+### 🤖 Self-Balancing Person-Following Robot *(in progress)*
+**Tech: Embedded Linux • C++ • BeagleY-AI • Real-Time R5F Core • I2C • PID Control**
+
+- Team lead on a 5-person ENSC 351 project building a two-wheeled balancing robot that detects a person, follows them at a set distance, and streams live video with clickable detection boxes to a browser
+- Own the balance subsystem: fusing MPU6050 IMU and wheel encoder data with a complementary filter, and running a cascaded PID loop on the board's real-time R5F core
+- Stabilizing the camera against the robot's own tilt by subtracting the measured angle from the commanded servo pitch, so the view stays level while the robot rocks
+- Responsible for the chassis build, wiring, and the 3.3 V encoder level constraint that protects the board's GPIO
+
+### 🔑 [PhoneKey: ESP32 BLE Phone-as-Key](https://github.com/BhavanThandi/ESP32-PhoneKey)
+**Tech: Kotlin • Jetpack Compose • C++ • ESP32 • Bluetooth Low Energy • GATT**
+
+- Built an Android app that unlocks an ESP32 over Bluetooth Low Energy, with the firmware owning the lock state and the phone acting only as a view onto it
+- Chose confirmed UI over optimistic UI with a 3-second timeout, because a screen reading "unlocked" when the hardware did not act is a safety bug rather than a polish issue
+- Paired notify-on-change with a read-on-connect, since BLE notifications are unacknowledged and one sent mid-connection is lost with no retransmission
+- Diagnosed undocumented failures including a CCCD the ESP32 Arduino core does not auto-create, and Android manifest permissions that build clean but leave the app with none
+- Built an in-app event log holding scan RSSI, discovery, subscription status, and raw GATT error codes, which became the primary debugging surface
+
+### ⚡ [Edison — AI Agent for Breadboard Circuits](https://github.com/BhavanThandi/EDISON)
+**Tech: Circuit Analysis • Modified Nodal Analysis • SPICE Methods • JavaScript** · [Live demo](https://edison-snowy.vercel.app)
+
+- Built at StormHacks 2026 with two teammates: a 3D breadboard where an AI agent places parts and wires from a plain-English description, and a from-scratch simulator checks the build works
+- Helped design the modified nodal analysis solver, the method SPICE is built on, where every component stamps its equations into one matrix solved for all node voltages at once
+- Validated the simulator against real circuits on real parts, so simulated results matched what the bench actually did
+- Contributed the circuit design and testing side, including op-amp behaviour at the supply rails
+
 ### 🫖 [Smart Mug: ICUP](https://github.com/BhavanThandi/Smart-Mug-ICUP)
 **Tech: C++ • Arduino Pro Mini • MAX6675 Thermocouple • SSD1306 OLED • Li-ion**
 
@@ -62,14 +97,6 @@ I enjoy designing systems from the ground up: from thermodynamic calculations an
 - Evaluated three distinct folding mechanisms — mid-frame rotation, wheel pivot, and rod hinge — comparing structural strength and folding efficiency to select the optimal final design
 - Assembled all components into a full SolidWorks assembly using concentric, coincident, and parallel mates to accurately simulate the bike's folding motion and part interactions
 - Produced multi-view engineering drawings with proper dimensioning and orthographic projections for each custom part in accordance with technical drafting standards
-
-### 🎲 Printed Wiring Board Dice
-**Tech: PCB Design • SMD Soldering • Through-Hole • Circuit Testing**
-
-- Constructed a functional PWB using mixed-technology assembly — combining surface mount devices and through-hole components on the same board
-- Conducted circuit testing using power supplies, digital multimeters, and oscilloscopes to troubleshoot errors and verify reliable electrical performance
-- Applied soldering techniques and layout analysis to ensure proper connectivity and system functionality across all components
-- Interpreted component datasheets to verify electrical specifications and ensure correct part selection and placement during assembly
 
 ---
 
